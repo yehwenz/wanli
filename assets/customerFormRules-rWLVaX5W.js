@@ -1,0 +1,1 @@
+const l=()=>({required:e=>!!e||"此欄位未填寫",required2:e=>e!=null||"此欄位未填寫",phonerule:e=>/^09[0-9]{8}$/.test(e)||"格式不正確",emailrule:e=>/^[a-zA-Z0-9._%+-]+@stust\.edu\.tw$/.test(e)||"請用學校email",checkbox:e=>e.length>0||"必需至少選一個",unitRules:e=>!!e||"必选",description:e=>e.length<=0?"此欄位未填寫":e.length>150?"超過字數限制":!0,radiobtn:e=>e!=""||"此欄位未填寫"});export{l as R};
